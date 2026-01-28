@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header section with title and filter buttons -->
+    <header>
+        <h1>My Movie Collection</h1>
+        
+        <!-- Filter buttons container -->
+        <div id="filter-buttons">
+            <button class="filter-btn active" data-genre="all">All</button>
+            <button class="filter-btn" data-genre="Action">Action</button>
+            <button class="filter-btn" data-genre="Comedy">Comedy</button>
+            <button class="filter-btn" data-genre="Drama">Drama</button>
+        </div>
+    </header>
+    
+    <!-- Main content area -->
+    <main>
+        <!-- Container for movie cards - will be populated by JavaScript -->
+        <div id="movie-grid"></div>
+    </main>
+
+    <!-- Link to external JavaScript file -->
+    <script src="js/app.js"></script>
+</body>
+</html>
