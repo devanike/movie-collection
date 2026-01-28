@@ -9,19 +9,22 @@ fetch ("./js/data/movies.json")
 .catch(error => console.error(error)); //fetching the movie json data
 
 const movieGrid = document.getElementById('movie-grid'); //getting the movieGrid element
-function renderMovies(movies){
-    movieGrid.innerHTML = ''; // refreshing the grid for a new rendering
-    for(let movie of movies){
-        movieGrid.innerHTML += `
-        <div class='movie-card'>
-        <img src= ${movie.poster} alt='${movie.title}'>
-        <h3>${movie.title} (${movie.year})</h3>
-        <p class='genre'>${movie.genre}</p>
-        <p class='description'>${movie.description}</p>
-        </div>
-        ` // rendering the movie grid
+function renderMovies(movies) {
+    movieGrid.innerHTML = '';
+    for (let movie of movies) {
+        const card = document.createElement("div");
+        card.classList.add("movie-card");
+        card.innerHTML = `
+            <img src="${movie.poster}" alt="${movie.title}">
+            <h3>${movie.title} (${movie.year})</h3>
+            <p class="genre">${movie.genre}</p>
+            <p class="description">${movie.description}</p>
+        `;
+        card.addEventListener("click", () => openModal(movie)); //added an event listener for when the modal should open
+        movieGrid.appendChild(card);
     }
 }
+
 
 const buttons = document.querySelectorAll('.filter-btn');
 buttons.forEach(button =>{
@@ -43,3 +46,21 @@ function filterButton(genre){
     renderMovies(filteredMovies)
 }
 
+
+const modal = document.getElementById("modal");
+const modalTitle = document.getElementById("modal-title");
+const modalTrailer = document.getElementById("modal-trailer");
+const closeBtn = document.querySelector(".modal .close"); //getting the modal elements by their ids
+
+function openModal(movie){
+    modalTitle.textContent = movie.title;
+    modalTrailer.src = movie.trailer; // embed link
+    modal.style.display = "flex";
+} //function to open the modal and load the video
+
+function closeModal() {
+    modal.style.display = "none";
+    modalTrailer.src = ""; // stop video
+} //close the modal
+
+closeBtn.addEventListener("click", closeModal)
