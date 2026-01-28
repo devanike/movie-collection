@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "From the World of John Wick: Ballerina",
+        "year": 2025,
+        "genre": "Action",
+        "description": "It stars Ana de Armas as a ballerina and assassin Eve Macarro, who takes on an army of killers as she avenges the death of her father.",
+        "poster": "https://via.placeholder.com/250x350/FF6B6B/FFFFFF?text=Action+Movie"
+    },
+    {
+        "id": 2,
+        "title": "One of Them Days",
+        "year": 2025,
+        "genre": "Comedy",
+        "description": "When best friends and roommates Dreux and Alyssa discover Alyssa's boyfriend has blown their rent money, the duo finds themselves going to extremes.",
+        "poster": "https://via.placeholder.com/250x350/4ECDC4/FFFFFF?text=Comedy+Movie"
+    },
+    {
+        "id": 3,
+        "title": "Straw",
+        "year": 2025,
+        "genre": "Drama",
+        "description": "What will be her last straw? A devastatingly bad day pushes a hardworking single mother to the breaking point and into a shocking act of desperation.",
+        "poster": "https://via.placeholder.com/250x350/95E1D3/FFFFFF?text=Drama+Movie"
+    },
+    {
+        "id": 4,
+        "title": "Havoc",
+        "year": 2024,
+        "genre": "Action",
+        "description": "When a drug heist swerves lethally out of control, a jaded cop fights his way through a corrupt city's criminal underworld to save a politician's son.",
+        "poster": "https://via.placeholder.com/250x350/FF6B6B/FFFFFF?text=Action+Movie"
+    },
+    {
+        "id": 5,
+        "title": "Madea's Destination Wedding",
+        "year": 2025,
+        "genre": "Comedy",
+        "description": "Set at the Atlantis Bahamas resort, the comedy follows Madea and the Simmons family as they navigate chaotic events surrounding a grandniece's wedding, including a lively bachelor party and suspicions that something is wrong. ",
+        "poster": "https://via.placeholder.com/250x350/4ECDC4/FFFFFF?text=Comedy+Movie"
+    },
+    {
+        "id": 6,
+        "title": "Breath of Life",
+        "year": 2023,
+        "genre": "Drama",
+        "description": "Exploring life and destiny, where one must live to fulfill their purpose and cannot die until it is completed.",
+        "poster": "https://via.placeholder.com/250x350/95E1D3/FFFFFF?text=Drama+Movie"
+    },
+    {
+        "id": 7,
+        "title": "G20",
+        "year": 2025,
+        "genre": "Action",
+        "description": "Terrorists take over the G20 summit with President Sutton, bringing her governing and military experience to defend her family, company, and the world.",
+        "poster": "https://via.placeholder.com/250x350/FF6B6B/FFFFFF?text=Action+Movie"
+    },
+    {
+        "id": 8,
+        "title": "Jackpot!",
+        "year": 2021,
+        "genre": "Comedy",
+        "description": "In the near future, a 'Grand Lottery' has been established - the catch: kill the winner before sundown to legally claim their multi-billion dollar jackpot.",
+        "poster": "https://via.placeholder.com/250x350/4ECDC4/FFFFFF?text=Comedy+Movie"
+    },
+    {
+        "id": 9,
+        "title": "A Star is Born",
+        "year": 2018,
+        "genre": "Drama",
+        "description": "A movie star helps a young singer and actress find fame, even as age and alcoholism send his own career into a downward spiral.",
+        "poster": "https://via.placeholder.com/250x350/95E1D3/FFFFFF?text=Drama+Movie"
+    }
+]
