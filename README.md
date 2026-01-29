@@ -125,3 +125,20 @@ We gained practical experience with the Feature Branch Workflow, understanding h
 
 
 ## Screenshots of CLI
+### Emmanuel Screenshots
+
+![Screenshot 1](./Screenshots/Screenshot%201%20-%20Emmanuel.png)
+![Screenshot 2](./Screenshots/Screenshot%202%20-%20Emmanuel.png)
+![Screenshot 3](./Screenshots/Screenshot%203%20-%20Emmanuel.png)
+![Screenshot 4](./Screenshots/Screenshot%204%20-%20Emmanuel.png)
+
+### Grace Screenshots
+
+![Screenshot 1](./Screenshots/Screenshot%201%20-%20Grace.png)
+![Screenshot 2](./Screenshots/Screenshot%202%20-%20Grace.png)
+![Screenshot 3](./Screenshots/Screenshot%203%20-%20Grace.png)
+![Screenshot 4](./Screenshots/Screenshot%204%20-%20Grace.png)
+![Screenshot 5](./Screenshots/Screenshot%205%20-%20Grace.png)
+
+### Pull Request History
+![Pull Request History](./Screenshots/Pul%20Requests.png)
