@@ -84,6 +84,11 @@ We followed the Feature Branch Workflow to ensure code quality and prevent confl
 - Active button state management
 - Real-time movie display updates
 
+### 6. Video Trailer (Javascript and Youtube Embed)
+- Event listeners on cards
+- Modal popups
+- Video trailers play from youtube embed
+
 ## Team Contributions
 
 ### Grace Olabode (Repository Owner):
@@ -98,6 +103,7 @@ We followed the Feature Branch Workflow to ensure code quality and prevent confl
 * Implemented `app.js` to fetch data from JSON file
 * Created the DOM manipulation logic to render movie cards dynamically
 * Implemented the genre filtering functionality
+* Implemented the trailer playing functionality
 * Reviewed and approved pull requests from repository owner
 
 ## Lessons Learned
@@ -116,3 +122,6 @@ Working remotely on the same project taught us the importance of clear communica
 
 ### Git Workflow Understanding
 We gained practical experience with the Feature Branch Workflow, understanding how professional development teams collaborate on large projects while maintaining code stability.
+
+
+## Screenshots of CLI
